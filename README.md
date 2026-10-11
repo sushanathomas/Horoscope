@@ -3,6 +3,9 @@
 A responsive horoscope app built with HTML, CSS, and JavaScript.
 Enter your birthday to discover your zodiac sign and read its horoscope message.
 
+<img width="673" height="369" alt="Horoscope" src="https://github.com/user-attachments/assets/3b6e2c5d-e92f-438c-86aa-9db80c6acf2c" />
+
+
 ## Features
 
 - Identifies all 12 zodiac signs using your birthday.
