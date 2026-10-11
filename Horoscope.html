@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope App</title>
+    <link rel="stylesheet" href="Horoscope.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="horoscope-container">
+
+            <h1>✨ Daily Horoscope ✨</h1>
+
+            <p class="intro">
+                Enter your birthday to discover your zodiac sign
+                and today's horoscope.
+            </p>
+
+            <form id="horoscopeForm">
+
+                <label for="birthday">Enter Your Birthday:</label>
+
+                <input
+                    type="date"
+                    id="birthday"
+                    name="birthday"
+                >
+
+                <button type="submit">
+                    Get My Horoscope
+                </button>
+
+            </form>
+
+            <section id="result" class="result">
+
+                <h2 id="zodiacSign"></h2>
+
+                <p id="horoscope"></p>
+
+            </section>
+
+        </section>
+    </main>
+
+    <script src="Horoscope.js"></script>
+
+</body>
+</html>
